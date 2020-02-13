@@ -598,7 +598,7 @@ comments:
 # Disqus
 disqus:
   enable: true
-  shortname: ihanai-blog
+  shortname: blog-ihanai
   count: false
   #post_meta_order: 0
 
