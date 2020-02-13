@@ -418,10 +418,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host:
+  host: //fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -454,7 +454,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: 'Source Code Pro'
 
 
 # ---------------------------------------------------------------
@@ -599,7 +599,7 @@ comments:
 disqus:
   enable: true
   shortname: ihanai-blog
-  count: true
+  count: false
   #post_meta_order: 0
 
 # DisqusJS
