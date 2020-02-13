@@ -123,7 +123,7 @@ menu:
   home: / || home
   about: /about/ || user
   Tips: /tips/ || tags
-  #tags: /tags/ || hashtag
+  tags: /tags/ || hashtag
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
