@@ -582,7 +582,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: disqus
+  active: disqusjs
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -597,8 +597,8 @@ comments:
 
 # Disqus
 disqus:
-  enable: true
-  shortname: blog-ihanai
+  enable: false
+  shortname:
   count: false
   #post_meta_order: 0
 
@@ -607,14 +607,14 @@ disqus:
 # Demo: https://suka.js.org/DisqusJS/
 # For more information: https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: false
+  enable: true
   # API Endpoint of Disqus API (https://disqus.com/api/).
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api:
-  apikey: # Register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  api: https://disqus.skk.moe/disqus/
+  apikey: FYoVMcKqcN4CqNtu12XmvvZ1VbdbnSv6Vwsm8N6ncNTXWK8ekX3XEzMcuf5qprK4
+  shortname: blog-ihanai
 
 # Changyan
 changyan:
