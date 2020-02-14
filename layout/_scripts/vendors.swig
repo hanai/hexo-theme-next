@@ -10,6 +10,10 @@
   {%- set js_vendors = js_vendors | attr('fancybox', '//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js') %}
 {%- endif %}
 
+{%- if theme.prism.enable %}
+  {%- set js_vendors = js_vendors | attr('prism', 'prism/prism.js') %}
+{%- endif %}
+
 {%- if theme.mediumzoom %}
   {%- set js_vendors = js_vendors | attr('mediumzoom', '//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js') %}
 {%- endif %}

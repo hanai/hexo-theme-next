@@ -51,6 +51,11 @@
   <link rel="stylesheet" href="{{ fancybox_css_uri }}">
 {%- endif %}
 
+{%- if theme.prism.enable %}
+  {%- set prism_css_uri = theme.vendors.prism.css or next_vendors('prism/prism.css') %}
+  <link rel="stylesheet" href="{{ prism_css_uri }}">
+{%- endif %}
+
 {%- if theme.pace.enable %}
   {%- set pace_css_uri = theme.vendors.pace_css or next_vendors('pace/pace-theme-' + theme.pace.theme + '.min.css') %}
   {%- set pace_js_uri = theme.vendors.pace or next_vendors('pace/pace.min.js') %}

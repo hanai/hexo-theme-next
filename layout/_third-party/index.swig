@@ -13,5 +13,7 @@
 {% include 'chat/chatra.swig' %}
 {% include 'chat/tidio.swig' %}
 
+{% include 'code/prism.swig' %}
+
 {% include 'tags/pdf.swig' %}
 {% include 'tags/mermaid.swig' %}
