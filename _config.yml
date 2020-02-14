@@ -940,6 +940,7 @@ vendors:
 
   # Prism
   prism:
+  prism_css:
 
   # FancyBox
   # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js

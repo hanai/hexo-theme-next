@@ -52,7 +52,7 @@
 {%- endif %}
 
 {%- if theme.prism.enable %}
-  {%- set prism_css_uri = theme.vendors.prism.css or next_vendors('prism/prism.css') %}
+  {%- set prism_css_uri = theme.vendors.prism_css or next_vendors('prism/prism.css') %}
   <link rel="stylesheet" href="{{ prism_css_uri }}">
 {%- endif %}
 
