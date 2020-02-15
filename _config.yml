@@ -14,7 +14,7 @@ reminder: false
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
-  enable: true
+  enable: false
 
 # Remove unnecessary files after hexo generate.
 minify: false
@@ -122,7 +122,7 @@ scheme: Gemini
 menu:
   home: / || home
   about: /about/ || user
-  Tips: /tips/ || tags
+  tips: /tips/ || tags
   tags: /tags/ || hashtag
   #categories: /categories/ || th
   archives: /archives/ || archive
@@ -258,7 +258,7 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: false
-  awl: 4
+  awl: 2
   wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
