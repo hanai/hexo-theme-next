@@ -835,6 +835,10 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: forest
 
+# Drawio tag
+drawio:
+  enable: true
+
 
 # ---------------------------------------------------------------
 # Animation Settings

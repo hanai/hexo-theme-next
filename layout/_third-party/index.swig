@@ -17,3 +17,4 @@
 
 {% include 'tags/pdf.swig' %}
 {% include 'tags/mermaid.swig' %}
+{% include 'tags/drawio.swig' %}
