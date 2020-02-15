@@ -1,5 +1,5 @@
 {%- if theme.prism.enable %}
-{%- set prism_languages_path = next_vendors('prism/prism-components/') %}
+{%- set prism_languages_path = theme.vendors.prism_components or next_vendors('prism/components/') %}
 <script>
 window.Prism = window.Prism || {};
 window.Prism.manual = true;

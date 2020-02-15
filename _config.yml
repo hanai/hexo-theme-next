@@ -941,6 +941,7 @@ vendors:
   # Prism
   prism:
   prism_css:
+  prism_components:
 
   # FancyBox
   # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
