@@ -4,6 +4,7 @@
 window.Prism = window.Prism || {};
 window.Prism.manual = true;
 window.Prism.plugins.autoloader.languages_path = '{{ prism_languages_path }}';
+window.Prism.languages.vue = window.Prism.languages.vue || window.Prism.languages.html;
 </script>
 <script{{ pjax }}>
 document.querySelectorAll('pre code')
