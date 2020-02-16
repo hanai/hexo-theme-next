@@ -1,5 +1,5 @@
 {%- if theme.drawio.enable %}
-{%- set drawio_uri = theme.vendors.drawio or '//www.draw.io/js/viewer.min.js' %}
+{%- set drawio_uri = theme.vendors.drawio or next_vendors('drawio_viewer.min.js') %}
 <script{{ pjax }}>
 (function () {
   var createContainer = function (xml) {

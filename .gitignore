@@ -19,3 +19,5 @@ source/lib/font-awesome/scss/
 !source/lib/velocity/
 
 !source/lib/prism/
+
+!source/lib/drawio_viewer.min.js

@@ -947,6 +947,10 @@ vendors:
   prism_css:
   prism_components: //cdnjs.loli.net/ajax/libs/prism/1.19.0/components/
 
+  # draw.io
+  # drawio: //www.draw.io/js/viewer.min.js
+  drawio:
+
   # FancyBox
   # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
   # fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
